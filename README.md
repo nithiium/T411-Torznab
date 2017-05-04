@@ -27,6 +27,19 @@ The API key is not needed to this proxy, but you must input something so that So
 For the moment the categories are not working (put anything you want here)
 
 # With docker
-docker image available here : https://hub.docker.com/r/drzoidberg/t411-torznab/
+Simply build :
+```
+docker build -t t411-torznab .
+```
+
+Simply run :
+```
+docker run -d -p 9876:9876 -e USERNAME=t411USER -e PASSWORD=T411PASS t411-torznab
+```
+
+Use my docker image :
+```
+https://hub.docker.com/r/drzoidberg/t411-torznab/
+```
 
 
